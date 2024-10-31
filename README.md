@@ -78,7 +78,7 @@ Welcome to the 7-Day Observability Tutorial Series! This repository contains the
 
 
 ####################################################################################################################################
-# Troubleshooting git permission issue 
+# Troubleshooting git permission issue The items have been commented
 <!-- The error message indicates that a remote named origin already exists in your Git repository. To resolve this issue, you have a couple of options:
 
 Option 1: Change the Existing Remote URL
