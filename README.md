@@ -76,3 +76,36 @@ Welcome to the 7-Day Observability Tutorial Series! This repository contains the
   - Understand the benefits of a unified observability approach using OpenTelemetry.
   - Gain hands-on experience with setting up OpenTelemetry Collector, Prometheus, Jaeger, and Elasticsearch to monitor a Golang microservice application.
 
+
+####################################################################################################################################
+# Troubleshooting git permission issue 
+<!-- The error message indicates that a remote named origin already exists in your Git repository. To resolve this issue, you have a couple of options:
+
+Option 1: Change the Existing Remote URL
+If you want to update the existing origin remote to point to a new URL, you can use the following command:
+
+bash
+Copy code
+git remote set-url origin git@github.com:Dorfsky24/observability_project.git
+This command updates the URL for the existing origin remote to the specified SSH URL.
+
+Option 2: Remove the Existing Remote and Add a New One
+If you prefer to remove the existing remote and then add a new one, you can do so with these commands:
+
+Remove the existing remote:
+
+bash
+Copy code
+git remote remove origin
+Add the new remote:
+
+bash
+Copy code
+git remote add origin git@github.com:Dorfsky24/observability_project.git
+Verify the Change
+After updating or adding the remote, you can verify the changes by running:
+
+bash
+Copy code
+git remote -v
+/*This command will show you the current remotes and their URLs. You should see the new SSH URL listed for the origin remote. -->
